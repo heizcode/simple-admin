@@ -1,0 +1,32 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: simple-sys
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    cache: false
+    mode: HTML
+  redis:
+    #数据库索引
+    database: 0
+simple:
+#  cache-manager:
+#    configs:
+#      - key: menu
+#        second: 600
+#      - key: user
+#        second: 1800
+  global:
+    moduleId: 1
+    moduleName: 简单后台管理系统
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*Mapper.xml,classpath:/mapper/**/*Dao.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.wisestars.mbg.**.entity
+  global-config:
+    db-config:
+      id-type: input
