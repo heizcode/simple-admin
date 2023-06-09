@@ -8,14 +8,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>simple-commons</artifactId>
     <packaging>pom</packaging>
     <description>公共聚合模块</description>
+
     <modules>
         <module>common-config</module>
         <module>common-db-spring-boot-starter</module>
     </modules>
-
-    <artifactId>simple-commons</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

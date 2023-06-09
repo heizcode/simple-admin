@@ -20,6 +20,10 @@
         <!--自定义modules引入-->
         <dependency>
             <groupId>com.simple</groupId>
+            <artifactId>common-db-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.simple</groupId>
             <artifactId>simple-sys-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
